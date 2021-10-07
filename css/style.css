@@ -1,0 +1,346 @@
+* {
+    margin: 0 ;
+    padding: 0 ;
+}
+ 
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+ 
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+ 
+.col {
+    margin: 0 15px;
+    float: left;
+}
+ 
+.col_1 {
+    width: calc(8.33% - 30px);
+}
+ 
+.col_2 {
+    width: calc(16.66% - 30px);
+}
+ 
+.col_3 {
+    width: calc(25% - 30px);
+    padding-top: 30px;
+}
+ 
+.col_4 {
+    width: calc(33.33% - 30px);
+}
+ 
+.col_5 {
+    width: calc(41.66% - 30px);
+}
+ 
+.col_6 {
+    width: calc(50% - 30px);
+    padding-top: 40px;
+}
+ 
+.col_7 {
+    width: calc(58.33% - 30px);
+}
+ 
+.col_8 {
+    width: calc(66.66% - 30px);
+}
+ 
+.col_9 {
+    width: calc(75% - 30px);
+}
+ 
+.col_10 {
+    width: calc(83.33% - 30px);
+}
+ 
+.col_11 {
+    width: calc(91.66% - 30px);
+}
+ 
+.col_12 {
+    width: calc(100% - 30px);
+}
+
+h3{
+    float: left;
+    padding: 0 10px;
+    color: #B1B1B1;
+    letter-spacing: 4px;
+}
+
+.text_1{
+letter-spacing: 4px;
+    padding: 8px 16px;
+}
+
+.text_2{
+    float: right;
+}
+
+.big-image{
+    background-image: url(../image/architect.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    position: relative;
+    height: 800px;
+}
+
+.bi-text{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+}
+
+.br{
+    background-color: #000;
+    color: #fff;
+    padding: 8px 16px;
+}
+
+.project{
+    padding: 32px;
+}
+
+.large{
+    margin: 20px 30px;
+}
+
+.image1{
+    background-image: url(../image/house5.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    position: relative;
+    height: 234px;
+}
+
+.one{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #000;
+    color: #fff;
+}
+
+.image2{
+    background-image: url(../image/house2.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    position: relative;
+    height: 234px;
+}
+
+.two{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #000;
+    color: #fff;
+}
+
+.image3{
+    background-image: url(../image/house3.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    position: relative;
+    height: 234px;
+}
+
+.three{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #000;
+    color: #fff;
+}
+
+.image4{
+    background-image: url(../image/house4.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    position: relative;
+    height: 234px;
+}
+
+.four{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #000;
+    color: #fff;
+}
+
+.image5{
+    background-image: url(../image/house2.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    position: relative;
+    height: 234px;
+}
+
+.five{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #000;
+    color: #fff;
+}
+
+.image6{
+    background-image: url(../image/house5.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    position: relative;
+    height: 234px;
+}
+
+.six{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #000;
+    color: #fff;
+}
+
+.image7{
+    background-image: url(../image/house4.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    position: relative;
+    height: 234px;
+}
+
+.seven{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #000;
+    color: #fff;
+}
+
+.image8{
+    background-image: url(../image/house3.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    position: relative;
+    height: 234px;
+}
+
+.eight{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #000;
+    color: #fff;
+}
+
+.lorem{
+    padding: 10px 32px;
+}
+
+.image9{
+    background-image: url(../image/team2.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    height: 234px;
+}
+
+.image10{
+    background-image: url(../image/team1.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    height: 234px;
+}
+
+.image11{
+    background-image: url(../image/team3.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    height: 234px;
+}
+
+.image12{
+    background-image: url(../image/team4.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    height: 234px;
+}
+
+h2{
+    line-height: 1.5;
+}
+
+.opacity{
+    opacity: 0.50;
+    line-height: 2;
+}
+
+.contact{
+    background-color: #F1F1F1;
+    color: black;
+    line-height: 4;
+    padding: 8px 150px;
+}
+
+.action{
+    padding: 32px;
+}
+
+.name{
+    border: 1px solid #ccc;
+    padding: 8px;
+    width: 100%;
+    margin-top: 16px;
+}
+
+.sendmessage{
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.image13{
+    background-image: url(../image/map.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    height: 818px;
+}
+
+footer{
+    padding: 5px 0;
+}
+
+.footer-a{
+    color: white;
+}
+
+.footer{
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding:30px;
+}
